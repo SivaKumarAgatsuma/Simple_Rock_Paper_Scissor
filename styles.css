@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+* {
+  font-family: "Covered By Your Grace", cursive;
+  padding: 0;
+  margin: 0;
+  background-color: #ffe7cc;
+}
+.title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  right: 80px;
+  font-size: 64px;
+}
+.winmsg {
+  position: relative;
+  top: 185px;
+  left: 790px;
+  justify-content: center;
+  display: block;
+}
+.gameimg1 {
+  position: relative;
+  top: 200px;
+  left: 580px;
+  height: 20vh;
+  transform: rotate(180deg);
+  text-align: center;
+  display: block;
+}
+.btns {
+  position: relative;
+  top: 200px;
+  left: 820px;
+  display: block;
+  text-align: center;
+}
+button {
+  width: 90px;
+  display: block;
+  font-size: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+.gameimg2 {
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
+  height: 19.5vh;
+  text-align: center;
+  display: block;
+}
+.hidden {
+  display: none;
+}
